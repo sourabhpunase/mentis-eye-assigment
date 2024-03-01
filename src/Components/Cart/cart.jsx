@@ -18,7 +18,7 @@ const Cart = () => {
     return (
         <>
         <div className={styles.container}>
-            <h1>Cart</h1>
+            {/* <h1>Cart</h1> */}
             <aside className={styles.cartTotalPrice}>
                 <p>Total Price: &#x20B9; {userCart.reduce((total, product) => total + product.price*product.count, 0)}/-</p>
                 <NavLink to='/orders' onClick={() => {checkOut()}} className={styles.button}>Purchase</NavLink>

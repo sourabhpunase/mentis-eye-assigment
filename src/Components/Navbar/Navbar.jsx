@@ -25,7 +25,7 @@ const Navbar = () => {
         <nav className={styles.nav}>
             <NavLink to="/" className={styles.logo}>
                 <img src={logoImg} alt="logo" />
-                <h4> Busy Buy</h4>
+                <h4>MENTIS</h4>
             </NavLink>
             <div className={styles.buttons}>
                 {authenticate ? (

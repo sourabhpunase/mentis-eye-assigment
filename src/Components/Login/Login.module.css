@@ -1,6 +1,6 @@
 .container{
     width: 40%;
-    background-color: #4a15ad;
+    background-color: #055a15b0;
     border-radius: 30px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
     padding: 0.45%;
@@ -33,22 +33,22 @@
 .inputContainer label{
     margin-bottom: 5px;
     font-weight: bold;
-    color: #4a15ad;
+    color: #03530a;
 }
 .inputContainer input{
     width: 90%;
     padding: 3%;
-    border: 2px solid #4a15ad;
+    border: 2px solid #0e8343;
     border-radius: 30px;
     outline: none;
 }
 .button{
     width: 20%;
     padding: 3%;
-    background-color: #4a15ad;
+    background-color: #024b10b5;
     text-align: center;
     border-radius: 30px;
-    border: 3px solid #4a15ad;
+    border: 3px solid #023218;
     font-weight: bold;
     color: #fff;
     cursor: pointer;
@@ -58,7 +58,7 @@
 }
 .button:hover{
     background-color: #fff;
-    color: #4a15ad;
+    color: #02390c;
 }
 .button:active{
     scale: 0.9;
@@ -68,12 +68,13 @@
     width: 250px;
     font-size: 15px;
     font-weight: 600;
-    color: #4a15ad;
+    color: #00180c;
 }
 .link{
     text-decoration: underline;
     display: inline;
     cursor: pointer;
+    color: #00180c;
 }
 .link:hover{
     color: #666;
